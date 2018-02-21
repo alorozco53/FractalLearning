@@ -107,6 +107,24 @@ para cualquier cadena $w$ sobre un lenguaje $L$.
 
 ---
 
+### Suma de lenguajes
+
+Sean $L$ y $M$ dos lenguajes sobre $\Sigma$, definimos la _suma_ de
+$L$ con $M$ como el lenguaje formado por la unión de todas las cadenas de
+cada lenguaje. Por ejemplo:
+
+<ul>
+	<li class="fragment">
+		Si $L = \\{0, 1\\}$ y $M = \\{01, 10\\}$; entonces
+		$$L + M = \\{0, 1, 01, 10\\}$$
+	</li>
+	<li class="fragment">
+		$a + b = \\{a, b\\}$
+	</li>
+</ul>
+
+---
+
 Sean $L$ y $M$ dos lenguajes sobre $\Sigma$
 
 <ul>
@@ -119,12 +137,44 @@ Sean $L$ y $M$ dos lenguajes sobre $\Sigma$
 				Para $L = a$, $L^\* = \\{\epsilon, a, aa, aaa, aaaa, \ldots\\}$
 			</li>
 			<li class="fragment">
-				Para $L = 0 + 1$,
+				Para $L = a + b$,
 				$$L^\* = \\{\epsilon, a, aa, aaa, aaaa, \ldots,$$
 	                     $$b, bb, bbb, bbbb, \ldots,$$
 						 $$ab, aab, aaab, aaaab, \ldots,$$
 						 $$\ldots,$$
 						 $$\ldots\\}$$
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+---
+
+Finalmente,
+
+## ¡Expresiones Regulares!
+
+---
+
+Sea $\Sigma$ un alfabeto.
+
+<ul>
+	<li class="fragment">
+		$\epsilon$ es una **expresión regular** sobre $\Sigma$
+	</li>
+	<li class="fragment">
+		Para cualquier $a \in \Sigma$, $a$ es una
+		**expresión regular** sobre $\Sigma$
+	</li>
+	<li class="fragment">
+		Si $\alpha$ y $\beta$ son expresiones regulares sobre $Sigma$, entones
+		<ul>
+			<li class="fragment">
+				$\alpha \beta$ es una **expresión regular** sobre $\Sigma$
+			</li>
+			<li class="fragment">
+				$\alpha^\*$ es una **expresión regular** sobre $\Sigma$
 			</li>
 		</ul>
 	</li>
