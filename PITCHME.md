@@ -87,10 +87,45 @@ Sean $L$ y $M$ dos lenguajes sobre $\Sigma$
 <ul>
 	<li class="fragment">
 		A partir de ahora abreviaremos la notación $L = \\{a\\}$ a únicamente
-		$a$.
+		$L = a$.
 	</li>
 	<li class="fragment">
-		Definimos la concatenación $L \cdot M$ de lenguajes como el lenguaje
-		$$N = \\{xy\ |\  x\text{ es cadena de }L, y\text{ es cadena de }M\\}$$
+		Definimos la concatenación $LM$ de lenguajes como el lenguaje
+		$$LM = \\{xy\ |\  x\text{ es cadena de }L, y\text{ es cadena de }M\\}$$
+	</li>
+</ul>
+
+---
+
+### La cadena vacía
+
+Denotamos como $\epsilon$ a la cadena _vacía_, es decir, posee la propiedad de
+
+$$w \epsilon = \epsilon w = w$$
+
+para cualquier cadena $w$ sobre un lenguaje $L$.
+
+---
+
+Sean $L$ y $M$ dos lenguajes sobre $\Sigma$
+
+<ul>
+	<li class="fragment">
+		Definimos a la _estrella de Kleeene_ de $L$ como el lenguaje $L*$
+		que posee todas las posibles cadenas formadas por concatenaciones
+		sucesivas de cadenas de $L$
+		<ul>
+			<li class="fragment">
+				Para $L = a$, $L* = \\{\epsilon, a, aa, aaa, aaaa, \ldots\\}$
+			</li>
+			<li class="fragment">
+				Para $L = 0 + 1$,
+				$$L* = \\{\epsilon, a, aa, aaa, aaaa, \ldots,$$
+	                     $$b, bb, bbb, bbbb, \ldots,$$
+						 $$ab, aab, aaab, aaaab, \ldots,$$
+						 $$\ldots,$$
+						 $$\ldots\\}$$
+			</li>
+		</ul>
 	</li>
 </ul>
