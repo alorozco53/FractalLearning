@@ -111,16 +111,16 @@ Sean $L$ y $M$ dos lenguajes sobre $\Sigma$
 
 <ul>
 	<li class="fragment">
-		Definimos a la _estrella de Kleeene_ de $L$ como el lenguaje $L\*$
+		Definimos a la _estrella de Kleeene_ de $L$ como el lenguaje $L^*$
 		que posee todas las posibles cadenas formadas por concatenaciones
 		sucesivas de cadenas de $L$
 		<ul>
 			<li class="fragment">
-				Para $L = a$, $L* = \\{\epsilon, a, aa, aaa, aaaa, \ldots\\}$
+				Para $L = a$, $L^* = \\{\epsilon, a, aa, aaa, aaaa, \ldots\\}$
 			</li>
 			<li class="fragment">
 				Para $L = 0 + 1$,
-				$$L* = \\{\epsilon, a, aa, aaa, aaaa, \ldots,$$
+				$$L^* = \\{\epsilon, a, aa, aaa, aaaa, \ldots,$$
 	                     $$b, bb, bbb, bbbb, \ldots,$$
 						 $$ab, aab, aaab, aaaab, \ldots,$$
 						 $$\ldots,$$
