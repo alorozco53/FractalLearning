@@ -90,7 +90,7 @@ Sean $L$ y $M$ dos lenguajes sobre $\Sigma$
 		$a$.
 	</li>
 	<li class="fragment">
-		Definimos la concatenación $L\cdotM$ de lenguajes como el lenguaje
-		$$N = \\{xy\ |\  x \text{es cadena de }L, y \text{es cadena de }M\\}$$.
+		Definimos la concatenación $L \cdot M$ de lenguajes como el lenguaje
+		$$N = \\{xy\ |\  x\text{ es cadena de }L, y\text{ es cadena de }M\\}$$
 	</li>
 </ul>
