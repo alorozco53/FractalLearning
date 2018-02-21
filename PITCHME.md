@@ -111,7 +111,7 @@ Sean $L$ y $M$ dos lenguajes sobre $\Sigma$
 
 <ul>
 	<li class="fragment">
-		Definimos a la _estrella de Kleeene_ de $L$ como el lenguaje $L*$
+		Definimos a la _estrella de Kleeene_ de $L$ como el lenguaje $L\*$
 		que posee todas las posibles cadenas formadas por concatenaciones
 		sucesivas de cadenas de $L$
 		<ul>
