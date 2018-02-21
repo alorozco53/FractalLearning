@@ -168,7 +168,7 @@ Sea $\Sigma$ un alfabeto.
 		**expresión regular** sobre $\Sigma$
 	</li>
 	<li class="fragment">
-		Si $\alpha$ y $\beta$ son expresiones regulares sobre $Sigma$, entones
+		Si $\alpha$ y $\beta$ son expresiones regulares sobre $\Sigma$, entones
 		<ul>
 			<li class="fragment">
 				$\alpha \beta$ es una **expresión regular** sobre $\Sigma$
