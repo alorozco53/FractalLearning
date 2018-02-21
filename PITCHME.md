@@ -61,4 +61,21 @@ con símbolos de $\Sigma$.
 😴 😴 😴 😴 😴
 ---
 
-### Construyendo lenguajes
+## Construyendo lenguajes
+
+---
+
+Sea $\Sigma$ un alfabeto y sea $L$ un lenguaje sobre $\Sigma$.
+
+<ul>
+	<li class="fragment">
+		Para cualesquiera cadenas $x$ y $w$ de $L$, definimos a la _concatenación_
+		de $x$ con $w$ como $z = xw$. Por ejemplo:
+		<ul>
+			<li class="fragment">
+				Si $L = \\{a, b\\}$, $x = aab$ y $w = bba$, entonces
+				$z = aabbbba$.
+			</li>
+		</ul>
+	</li>
+</ul>
