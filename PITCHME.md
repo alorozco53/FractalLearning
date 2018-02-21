@@ -2,7 +2,7 @@
 
 ---
 
-![chomsky](img/chomsky.jpg)
+<img width="50%" height="50%" data-src="img/chomsky.jpg" style="border-style: none" target="_blank">
 
 ---
 
@@ -15,8 +15,8 @@
 Llamamos _lenguaje_ a un conjunto **finito** de símbolos.
 
 <ul>
-	<li class="fragment">$L = \{0, 1\}$</li>
-	<li class="fragment">$L = \{a, b\}$</li>
+	<li class="fragment">$L = \\{0, 1\\}$</li>
+	<li class="fragment">$L = \\{a, b\\}$</li>
 	<li class="fragment">$L =$ `ASCII`</li>
 	<li class="fragment">$L =$ `UTF-8`</li>
 </ul>
