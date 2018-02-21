@@ -79,3 +79,18 @@ Sea $\Sigma$ un alfabeto y sea $L$ un lenguaje sobre $\Sigma$.
 		</ul>
 	</li>
 </ul>
+
+---
+
+Sean $L$ y $M$ dos lenguajes sobre $\Sigma$
+
+<ul>
+	<li class="fragment">
+		A partir de ahora abreviaremos la notación $L = \\{a\\}$ a únicamente
+		$a$.
+	</li>
+	<li class="fragment">
+		Definimos la concatenación $L\cdotM$ de lenguajes como el lenguaje
+		$$N = \\{xy\ |\  x \text{es cadena de }L, y \text{es cadena de }M\\}$$.
+	</li>
+</ul>
