@@ -36,11 +36,26 @@ de $L$.
 		Si $\Sigma = \\{a, b\\}$, $baba$ es una cadena sobre $\Sigma$
 	</li>
 	<li class="fragment">
-		Si $\Sigma =$ `UTF-8`, $hola, soy max$ es una cadena sobre $\Sigma$
+		Si $\Sigma =$ `UTF-8`, $hola,$ $soy$ $max$ es una cadena sobre $\Sigma$
 	</li>
-
 </ul>
 
 ---
 
 ### Lenguajes
+
+Un lenguaje $L$ **sobre una alfabeto** $\Sigma$ es un conjunto de cadenas hechas
+con símbolos de $\Sigma$.
+
+<ul>
+	<li class="fragment">
+		Si $\Sigma = \\{0, 1\\}$, $L = \\{0, 1, 001, 01\\}$
+	</li>
+	<li class="fragment">
+		Si $\Sigma =$ `UTF-8`, $L = \\{x\ |\ x$ es un verbo en infinitivo $\\}$
+	</li>
+
+</ul>
+
+----
+😴 😴 😴 😴 😴
